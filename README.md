@@ -1,10 +1,11 @@
 # dotfiles
 Dotfiles for tmux, zsh, bash etc. Linux and Mac
-
+# Install Oh-my-zsh
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 # iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
-
+```
 iTerm2 -> Preferences (⌘ + ,)
 Open the “Keys” tab
 Add the following Global Shortcut Keys
@@ -48,3 +49,4 @@ Don't forget to remove the previous bindings:
 Open the “Profiles” tab
 Click the sub-tab ”Keys”
 Remove the mappings for key combinations ⌥ + ← and ⌥ + →
+```
