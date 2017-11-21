@@ -1,12 +1,15 @@
 # dotfiles
 Dotfiles for tmux, zsh, bash etc. Linux and Mac
-# Install Oh-my-zsh
+# Terminal
+Scripts and tricks to setup one terminal to rule them all...
+
+### Install Oh-my-zsh
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-# Install Oh-my-bash
+### Install Oh-my-bash
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"`
 
-# iTerm2 Keys setup
+### iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
 ```
 iTerm2 -> Preferences (⌘ + ,)
