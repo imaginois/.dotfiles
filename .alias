@@ -1,3 +1,7 @@
 alias gs='git status'
 
 alias nano='nano -W -S'
+
+# https://support.code42.com/CrashPlan/4/Troubleshooting/Stop_and_start_the_Code42_app_service
+alias stopcrash='sudo launchctl unload /Library/LaunchDaemons/com.crashplan.engine.plist'
+alias startcrash='sudo launchctl load /Library/LaunchDaemons/com.crashplan.engine.plist'
