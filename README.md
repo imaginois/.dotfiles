@@ -10,6 +10,8 @@ Consider setting the PATH for example like so
 
   ```echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile```
 
+** _Added in .zshrc_
+
 ### Enable Homebrew for multiuser use
 ```
 sudo dseditgroup -o edit -a $(whoami) -t user admin
