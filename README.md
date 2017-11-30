@@ -44,8 +44,8 @@ brew cask install font-hack-nerd-font
 
 ### iTerm2 font setup
 
-- Go To *Preferences -> Profiles -> Colors* and select Solorized Dark
-- Go To the *Text* tab select *Change font* browse and select _Roboto Mono for Powerline_ 14pt
+- Go To **Preferences -> Profiles -> Colors** and select Solorized Dark
+- Go To the **Text** tab select **Change font** browse and select _Roboto Mono for Powerline_ 14pt
 
 ### iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
