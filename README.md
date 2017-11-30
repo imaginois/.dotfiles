@@ -3,6 +3,16 @@ Dotfiles for tmux, zsh, bash etc. Linux and Mac
 # Terminal
 Scripts and tricks to setup one terminal to rule them all...
 
+### Add /usr/local/sbin to the path
+Homebrew's sbin was not found in your PATH but you have installed
+formulae that put executables in /usr/local/sbin.
+Consider setting the PATH for example like so
+  `echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile`
+
+### Enable Homebrew for multiuser use
+`sudo dseditgroup -o edit -a $(whoami) -t user admin`
+`sudo dseditgroup -o edit -a $(whoami) -t user wheel`
+
 ### Install [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
