@@ -10,8 +10,10 @@ Consider setting the PATH for example like so
   `echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile`
 
 ### Enable Homebrew for multiuser use
-`sudo dseditgroup -o edit -a $(whoami) -t user admin`
-`sudo dseditgroup -o edit -a $(whoami) -t user wheel`
+```
+sudo dseditgroup -o edit -a $(whoami) -t user admin
+sudo dseditgroup -o edit -a $(whoami) -t user wheel
+```
 
 ### Install [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
