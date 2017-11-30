@@ -7,7 +7,8 @@ Scripts and tricks to setup one terminal to rule them all...
 Homebrew's sbin was not found in your PATH but you have installed
 formulae that put executables in /usr/local/sbin.
 Consider setting the PATH for example like so
-  `echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile`
+
+  ```echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile```
 
 ### Enable Homebrew for multiuser use
 ```
