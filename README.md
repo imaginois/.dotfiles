@@ -1,6 +1,6 @@
 # dotfiles
 Dotfiles for tmux, zsh, bash etc. Linux and Mac
-## Terminal
+# Terminal
 Scripts and tricks to setup one terminal to rule them all...
 
 ### Add /usr/local/sbin to the path
