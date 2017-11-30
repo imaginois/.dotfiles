@@ -18,6 +18,18 @@ sudo dseditgroup -o edit -a $(whoami) -t user admin
 sudo dseditgroup -o edit -a $(whoami) -t user wheel
 ```
 
+### Install Powerline Fonts
+```
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
+
 ### Install [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
@@ -29,6 +41,11 @@ sudo dseditgroup -o edit -a $(whoami) -t user wheel
 brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 ```
+
+### iTerm2 font setup
+
+- Go To *Preferences -> Profiles -> Colors* and select Solorized Dark
+- Go To the *Text* tab select *Change font* browse and select _Roboto Mono for Powerline_ 14pt
 
 ### iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
