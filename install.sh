@@ -15,6 +15,10 @@ brew install zsh-autosuggestions
 echo "### Install atom.io"
 brew cask install atom
 
+# TODO backup the ~/.atom folder
+echo "Setup Atom package"
+apm install atom-ide-ui
+
 # brew cask fonts
 echo "Installing fonts..."
 # clone
