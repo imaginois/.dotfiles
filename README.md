@@ -94,3 +94,10 @@ Open the “Profiles” tab
 Click the sub-tab ”Keys”
 Remove the mappings for key combinations ⌥ + ← and ⌥ + →
 ```
+
+### Setup Atom.io
+#### Restore settings and packages
+
+### Setup NeoVim
+
+### Setup **tmux**
