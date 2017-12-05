@@ -24,4 +24,3 @@ alias free="free -mt"
 alias mkdir="mkdir -pv"
 alias wget="wget -c"
 alias histg="history | grep"
-
