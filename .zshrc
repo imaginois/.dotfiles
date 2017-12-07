@@ -76,6 +76,7 @@ plugins=(
   rake
   rbenv
   ruby
+  zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh

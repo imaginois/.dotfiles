@@ -16,8 +16,11 @@ echo "### Install atom.io"
 brew cask install atom
 
 # TODO backup the ~/.atom folder
-echo "Setup Atom package"
-apm install atom-ide-ui
+echo "Setup .atom folder"
+#apm install atom-ide-ui
+#apm install sync-settings
+rm -rf ~/.atom
+ln -s -f ~/.dotfiles/.atom ~/
 
 # brew cask fonts
 echo "Installing fonts..."
@@ -67,4 +70,12 @@ then
 fi 
 
 ln -s ~/.dotfiles/.alias ~/.zsh_alias
+
+
+# Setup Tmux
+echo "### Setup .tmux.conf"
+cd 
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 
