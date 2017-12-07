@@ -98,6 +98,10 @@ Remove the mappings for key combinations ⌥ + ← and ⌥ + →
 ### Setup Atom.io
 #### Restore settings and packages
 
+### Setup Sublime Text 3
+
 ### Setup NeoVim
 
 ### Setup **tmux**
+
+### Setup OpenVPN
