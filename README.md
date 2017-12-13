@@ -15,6 +15,30 @@ brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 ```
 
+### Setup aliases
+Create symbolic links for .bash_alias and .zsh_alias
+
+In the .dotfiles directory there is *.alias* file. Since the bash and zsh both use
+the same syntax to define aliases we can use the same file for both.
+
+#### .zsh_alias
+```
+ln -s ~/.dotfiles/.alias ~/.zsh_alias 
+echo "\nsource ~/.zsh_alias\n" >> ~/.zshrc
+```
+
+#### .bash_alias 
+```
+ln -s ~/.dotfiles/.alias ~/.bash_alias
+echo "\nsource ~/.bash_alias\n" >> ~/.bashrc
+```
+
+### Set zsh theme
+...
+
+### Set bash theme
+...
+
 ### iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
 ```

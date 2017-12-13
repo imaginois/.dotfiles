@@ -1,3 +1,5 @@
 alias gs='git status'
 
 alias nano='nano -W -S'
+
+alias v='nvim'
