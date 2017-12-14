@@ -27,3 +27,4 @@ alias histg="history | grep"
 
 
 alias porto='cd ~/Perforce/porto && vagrant up'
+alias v='nvim'
