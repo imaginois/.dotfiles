@@ -7,7 +7,7 @@ export ZSH=/Users/mderibanov/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="refined"
 
 # norm
 # wedisagree
@@ -113,5 +113,15 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+autoload -U compinit promptinit
+
+promptinit
+prompt pure
+
+compinit
+
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 source ~/.zsh_alias
