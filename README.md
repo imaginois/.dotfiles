@@ -11,21 +11,43 @@ This repository is meant to encapsulate full featured javascript and web dev wor
 
 ### Pre-Requisites:
 - Git
-- Bash
+- Curl or Wget
 
 # Install neccessary software
 ## Categories
 ### GUI tools
+- [ ] Install Sublime Text 3
+- [ ] Install Atom.io
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
 
 ### CLI tools
 - [ ] Setup ZSH
   - Setup theme
   - Setup aliases
 - [ ] Setup Bash
+  - Setup theme
+  - Setup aliases
 - [ ] Setup Tmux
+  - Setup key bindings
+  - Setup .tmux conf with different environments
 - [ ] Setup Git
+  - Setup global .gitignore
+  - Setup global .gitconfig
 - [ ] 
 - [ ] 
+
+### Mac Specific
+### Linux Specific
+### Windows Specific
+
+
+
+
 
 # Terminal
 Scripts and tricks to setup one terminal to rule them all...
