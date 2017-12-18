@@ -1,5 +1,32 @@
 # dotfiles
 Dotfiles for tmux, zsh, bash etc. Linux and Mac
+
+This repository is meant to encapsulate full featured javascript and web dev workflow and set of tools. It has the following gols in mind:
+
+- Be Cross-Platform, work on Mac OS, Linux and Windows
+- Be command-line centric. It should not involve any graphical tools in order to be fully portable and work in text-only environments
+- Be shortcut drived with intuitive and easy to remember key combinations
+- Be simple and quick way to have a full working dev setup on any maching in seconds
+- Be secure and not contain any access credentials so it can be used by anybody
+
+### Pre-Requisites:
+- Git
+- Bash
+
+# Install neccessary software
+## Categories
+### GUI tools
+
+### CLI tools
+- [ ] Setup ZSH
+  - Setup theme
+  - Setup aliases
+- [ ] Setup Bash
+- [ ] Setup Tmux
+- [ ] Setup Git
+- [ ] 
+- [ ] 
+
 # Terminal
 Scripts and tricks to setup one terminal to rule them all...
 
@@ -42,7 +69,7 @@ brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 ```
 
-<<<<<<< HEAD
+
 ### Setup aliases
 Create symbolic links for .bash_alias and .zsh_alias
 
@@ -66,7 +93,7 @@ echo "\nsource ~/.bash_alias\n" >> ~/.bashrc
 
 ### Set bash theme
 ...
-=======
+
 ### iTerm2 font setup
 
 - Go To **Preferences -> Profiles -> Colors** and select Solorized Dark
